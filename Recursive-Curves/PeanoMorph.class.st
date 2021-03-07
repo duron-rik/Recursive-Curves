@@ -135,7 +135,7 @@ PeanoMorph >> drawLine: aLength [
 
 { #category : #calculations }
 PeanoMorph >> generatePoints [
-	"generate the points for an arrowhead curve with length and order"
+	"generate the points for a peano curve with length and order"
 
 	points add: point.
 	self turn: ninetyDegrees.
@@ -162,28 +162,28 @@ PeanoMorph >> initialize [
 
 { #category : #accessing }
 PeanoMorph >> length [
-	"return the length in pixels for the arrowhead"
+	"return the length in pixels for the peano curve"
 
 	^ length
 ]
 
 { #category : #accessing }
 PeanoMorph >> length: anInteger [
-	"set the length in pixels for the arrowhead"
+	"set the length in pixels for the peano curve"
 
 	length := anInteger
 ]
 
 { #category : #accessing }
 PeanoMorph >> order [
-	"return the order of the arrowhead"
+	"return the order of the peano curve"
 
 	^ order
 ]
 
 { #category : #accessing }
 PeanoMorph >> order: anInteger [
-	"set the order of the arrowhead"
+	"set the order of the peano curve"
 
 	order := anInteger
 ]
